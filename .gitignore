@@ -1,0 +1,16 @@
+# Environment variables and API keys
+.env
+.env.local
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# PDF downloads (optional, if you don't want to track raw PDFs in git)
+data/*.pdf
+
+# Generated outputs
+results.csv
